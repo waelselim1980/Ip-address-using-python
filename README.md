@@ -9,8 +9,6 @@ IPAddr = socket.gethostbyname(hostname)
 
 g=str(IPAddr)
 
-w=str("192.168.100.9")
-
 f= open("myipadress.txt","a")
 
 print("This software is created by Eng. Wael Sherif Selim , email: wal.sherif.selim@gmail.com")
