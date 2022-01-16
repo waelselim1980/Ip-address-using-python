@@ -1,7 +1,10 @@
 # Ip-address-using-python
 #You can get your IP address using python by using below code, you can make it a standalone application using pyinstaller
+
 import socket
+
 hostname = socket.gethostname()    
+
 IPAddr = socket.gethostbyname(hostname)  
 g=str(IPAddr)
 w=str("192.168.100.9")
