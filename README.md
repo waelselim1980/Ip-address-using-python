@@ -11,9 +11,9 @@ g=str(IPAddr)
 
 f= open("myipadress.txt","a")
 
-print("This software is created by Eng. Wael Sherif Selim , email: wal.sherif.selim@gmail.com")
+print("This software is created by Eng. Wael Sherif Selim , email: wael.sherif.selim@gmail.com")
 
-print("This software is created by Eng. Wael Sherif Selim , email: wal.sherif.selim@gmail.com", file=f)
+print("This software is created by Eng. Wael Sherif Selim , email: wael.sherif.selim@gmail.com", file=f)
 
 print("ipaddress is",g)
 
